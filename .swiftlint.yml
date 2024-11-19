@@ -1,0 +1,37 @@
+# Paths to ignore
+
+# reasonable overrides
+file_length: 900
+function_body_length: 90
+function_parameter_count: 5
+identifier_name: {max_length: 54, min_length: 1, allowed_symbols: ["_"]}
+large_tuple: {warning: 4, error: 6}
+nesting:
+  type_level: {warning: 2}
+  function_level: {warning: 2}
+line_length: 130
+type_body_length: 900
+type_name: {max_length: 50, min_length: 2}
+
+disabled_rules:
+  - trailing_whitespace
+  - vertical_whitespace
+  - trailing_newline
+  - unused_optional_binding
+  - redundant_discardable_let
+  - empty_parentheses_with_trailing_closure
+
+opt_in_rules:
+  - contains_over_first_not_nil
+  - convenience_type
+  - discouraged_optional_boolean
+  - empty_count
+  - empty_string
+  - empty_xctest_method
+  - explicit_init
+  - force_unwrapping
+  - overridden_super_call
+  - private_outlet
+  - unneeded_parentheses_in_closure_argument
+  - trailing_closure
+
